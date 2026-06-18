@@ -3,7 +3,7 @@ import streamlit as st
 from pathlib import Path
 from datetime import date, datetime
 
-CSV_FILE = Path(r"C:\AMI_Weather\AMI_Beach_Intelligence_V2_Weather_Tracker.csv")
+CSV_FILE = Path("AMI_Beach_Intelligence_V2_Weather_Tracker.csv")
 
 TRIP_START = date(2026, 6, 28)
 TRIP_END = date(2026, 7, 6)
